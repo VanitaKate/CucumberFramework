@@ -10,7 +10,7 @@ node{
     stage('cleantest'){
       steps{
       echo "buikding stage"
-        echo "maven clean test ";
+        echo "maven clean test through pipeline.. ";
     }
   }
 }
