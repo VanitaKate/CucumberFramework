@@ -1,11 +1,16 @@
 node{
   agent any
   stages{
+    
     stage('test'){
-      echo "Testing stage."
+      steps{
+      echo "Testing stage.";
+      }
     }
-    stage('build'){
+    stage('cleantest'){
+      steps{
       echo "buikding stage"
+        echo "maven clean test ";
     }
   }
 }
