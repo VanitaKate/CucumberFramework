@@ -1,0 +1,11 @@
+node{
+  agent any
+  stages{
+    stage('test'){
+      echo "Testing stage."
+    }
+    stage('build'){
+      echo "buikding stage"
+    }
+  }
+}
